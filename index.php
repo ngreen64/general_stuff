@@ -6,10 +6,12 @@ echo "Welcome to Server : ";
   $port = $_SERVER['SERVER_PORT'] ? ':'.$_SERVER['SERVER_PORT'] : '';
   echo $protocol.$server.$port;
 echo "<br>";
+echo "<br>";
 
 echo "Running on backend IP address : ";
   $ip_addr = $_SERVER['SERVER_ADDR'];
   echo "\n".$ip_addr;
+echo "<br>";
 echo "<br>";
 
 echo "My hostname is : ";
