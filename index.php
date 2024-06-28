@@ -10,7 +10,7 @@ echo "<br>";
 
 echo "Running on backend IP address : ";
   $ip_addr = $_SERVER['SERVER_ADDR'];
-  echo "<b>".$ip_addr."</b>;
+  echo "<b>".$ip_addr."</b>";
 echo "<br>";
 echo "<br>";
 
